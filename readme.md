@@ -12,7 +12,7 @@ The annotations used are defined in the
 
 \*\) Well, it actually doesn't. You can just as well embed a Java web container
 in your project, such as [Jetty](http://eclipse.org/jetty/), and be done with
-it. Using an application server is probably easier for beginners, though. 
+it. Using an application server is probably easier for beginners, though. ...
 
 # How do I build this project? #
 
