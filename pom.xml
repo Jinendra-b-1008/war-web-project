@@ -25,15 +25,23 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-  <build>
+<build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.3.2</version> <!-- Use latest stable -->
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version> <!-- Use a stable version -->
+            <configuration>
+                <source>1.8</source>  <!-- or 11 or 17 based on your project -->
+                <target>1.8</target>
+            </configuration>
         </plugin>
     </plugins>
 </build>
+ <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
 <!--   <build>
     <plugins>
       <plugin>
