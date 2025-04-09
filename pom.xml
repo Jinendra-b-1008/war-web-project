@@ -29,12 +29,8 @@
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.1</version> <!-- Use a stable version -->
-            <configuration>
-                <source>1.8</source>  <!-- or 11 or 17 based on your project -->
-                <target>1.8</target>
-            </configuration>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.2</version> <!-- ✅ Latest stable -->
         </plugin>
     </plugins>
 </build>
